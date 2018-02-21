@@ -1,7 +1,4 @@
-.tavern { 
-    /* The image used */
-    background-image: url("TavernP1.jpg");
-
+html {    
     /* Full height */
     height: 100%; 
 
@@ -9,19 +6,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+.tavern { 
+    /* The image used */
+    background-image: url("TavernP1.jpg");
 }
 .fakeHall{ 
     /* The image used */
     background-image: url("oldCellar.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+.god{ 
+    /* The image used */
+    background-image: url("ummGod.jpg");
+}
+
 .champion{
     text-align: center;
 }
@@ -41,4 +41,34 @@
 .p1text a {
     -webkit-text-stroke-width:.6px;
     -webkit-text-stroke-color:white;
+}
+.Fight{
+    /* The image used */
+    background-image: url("hel.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mk{
+    
+    max-width: 900px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: white;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color: black; 
+    background: rgba( 255, 255, 255, .4);
+    padding: 10px;
+    margin:0 auto
+}
+.walkdie{
+    
+}
+.killTxt{
+    
 }
