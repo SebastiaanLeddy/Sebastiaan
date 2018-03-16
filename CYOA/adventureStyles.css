@@ -66,9 +66,27 @@ html {
     padding: 10px;
     margin:0 auto
 }
-.walkdie{
-    
+.walkDie{
+    /* The image used */
+    background-image: url("lava.jpg");
+}
+.walkDie{
+    max-width: 700px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    -webkit-text-stroke-width:.9px;
+    -webkit-text-stroke-color:white;
+}
+.killAll{
+    /* The image used */
+    background-image: url("dead.jpg");
 }
 .killTxt{
-    
+     max-width: 700px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    -webkit-text-stroke-width:.9px;
+    -webkit-text-stroke-color:white;
 }
